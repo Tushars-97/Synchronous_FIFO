@@ -6,17 +6,29 @@ Output: data_out (16 bits), full, empty
 Internal registers: w_ptr, r_ptr (4 bits each), FIFO array (8x16 bits)
 
 Reset Logic:
+
 On the positive edge of clk or negative edge of rst_n:
+
 If rst_n is low:
+
 Set data_out to 0
+
 Set w_ptr to 0
+
 Set r_ptr to 0
 
+
+
 Write Logic:
+
 On the positive edge of clk:
+
 If full is false and w_en is true:
+
 Write data_in to FIFO at the location indicated by w_ptr[2:0]
+
 Increment w_ptr by 1
+
 
 Read Logic:
 
