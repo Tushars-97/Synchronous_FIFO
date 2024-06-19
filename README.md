@@ -1,7 +1,6 @@
 /// LOGIC FOR Synchronous FIFO Design ///
 
 Initialization:
-
 Input: clk, rst_n, w_en, r_en, data_in (16 bits)
 Output: data_out (16 bits), full, empty
 Internal registers: w_ptr, r_ptr (4 bits each), FIFO array (8x16 bits)
