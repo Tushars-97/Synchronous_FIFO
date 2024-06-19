@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+
 module testbench();
 reg clk, rst_n, w_en, r_en;
 reg [15:0] data_in;
