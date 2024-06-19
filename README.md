@@ -26,4 +26,5 @@ Increment r_ptr by 1
 
 Status Flags:
 empty is true if w_ptr equals r_ptr
+
 full is true if the MSB of w_ptr is not equal to the MSB of r_ptr and the lower bits of w_ptr are equal to the lower bits of r_ptr
