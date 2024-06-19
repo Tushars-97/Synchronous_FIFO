@@ -16,9 +16,7 @@ On the positive edge of clk or negative edge of rst_n:
 If rst_n is low:
 
 Set data_out to 0
-
 Set w_ptr to 0
-
 Set r_ptr to 0
 
 
